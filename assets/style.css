@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main
+{
+    width: 100%;
+    padding: 50px;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FirstContainer
+{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.SecContainer
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Child
+{
+    width: 125px;
+    height: 125px;
+    border: 2px solid #5c494c;
+    border-radius: 5px;
+}
+.FirstContent
+{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #4f5a73;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.SecContent
+{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border: 2px solid #4f5a73;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.ThirdContent
+{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border: 2px solid #4f5a73;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.FourthContent
+{
+    width: 200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #4f5a73;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.FivthContent
+{
+    width: 200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: start;
+    border: 2px solid #4f5a73;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.SixthContent
+{
+    width: 200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: end;
+    border: 2px solid #4f5a73;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
